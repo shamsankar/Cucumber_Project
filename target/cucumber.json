@@ -14,7 +14,7 @@
               "status": "undefined"
             },
             "line": 5,
-            "name": "I have opend the Application in Browser",
+            "name": "I have opened the Application in Browser",
             "match": {},
             "keyword": "Given "
           }
@@ -111,7 +111,7 @@
     "description": "",
     "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application",
     "keyword": "Feature",
-    "uri": "file:src/test/java/features/Login.feature",
+    "url": "file:src/test/java/features/Login.feature",
     "tags": [
       {
         "name": "@F_Login",
