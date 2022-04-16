@@ -10,7 +10,8 @@ import io.cucumber.junit.CucumberOptions;
 		plugin = {"html:target/html-cucumber","json:target/cucumber.json"},
         
         features = "src/test/java/features",
-        tags = {"@F_Login"}, // to run one single Tag
+       tags = {"@F_Login"}, // to run Feature Tag
+       // tags = {"@Sanity"}, // to run one single Tag
         
         //tags = {"@Sanity,@Regression"}, //to run multiple tags using OR
         //tags = {"@Sanity or @Regression"}, //to run multiple tags using OR

@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="1" failures="0" name="com.simplilearn.CucumberProject.AppTest" time="0.004" errors="0" skipped="0">
+<testsuite tests="1" failures="0" name="com.simplilearn.CucumberProject.AppTest" time="0.003" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="cucumber.options" value="--tags @Sanity"/>
     <property name="java.vm.version" value="11.0.13+10-LTS-370"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.13\bin"/>
     <property name="maven.multiModuleProjectDirectory" value="C:\CucumberProject"/>
@@ -45,7 +46,7 @@
     <property name="java.class.path" value="C:\apache-maven-3.8.4\boot\plexus-classworlds-2.6.0.jar"/>
     <property name="java.vm.specification.version" value="11"/>
     <property name="sun.arch.data.model" value="64"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test -Dcucumber.options=--tags @Sanity"/>
     <property name="java.home" value="C:\Program Files\Java\jdk-11.0.13"/>
     <property name="user.language" value="en"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -65,5 +66,5 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.simplilearn.CucumberProject.AppTest" name="testApp" time="0.004"/>
+  <testcase classname="com.simplilearn.CucumberProject.AppTest" name="testApp" time="0.003"/>
 </testsuite>

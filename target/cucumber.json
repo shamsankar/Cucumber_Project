@@ -1,9 +1,9 @@
 [
   {
-    "line": 3,
+    "line": 2,
     "elements": [
       {
-        "line": 5,
+        "line": 4,
         "name": "Open the Application",
         "description": "",
         "type": "background",
@@ -13,7 +13,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 6,
+            "line": 5,
             "name": "I have opend the Application in Browser",
             "match": {},
             "keyword": "Given "
@@ -21,11 +21,11 @@
         ]
       },
       {
-        "start_timestamp": "2022-04-13T17:18:27.248Z",
+        "start_timestamp": "2022-04-16T11:17:53.900Z",
         "before": [
           {
             "result": {
-              "duration": 2223886900,
+              "duration": 1655908600,
               "status": "passed"
             },
             "match": {
@@ -33,14 +33,14 @@
             }
           }
         ],
-        "line": 10,
+        "line": 8,
         "name": "Validate the Successful Login",
         "description": "",
         "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;validate-the-successful-login",
         "after": [
           {
             "result": {
-              "duration": 59089000,
+              "duration": 48183200,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 11,
+            "line": 9,
             "name": "I Click on the Login Link",
             "match": {},
             "keyword": "When "
@@ -64,7 +64,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 12,
+            "line": 10,
             "name": "I Enter the UserName",
             "match": {},
             "keyword": "And "
@@ -73,7 +73,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 13,
+            "line": 11,
             "name": "I Enter the Password",
             "match": {},
             "keyword": "And "
@@ -82,7 +82,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 14,
+            "line": 12,
             "name": "I Click on the Login Button",
             "match": {},
             "keyword": "And "
@@ -91,7 +91,7 @@
             "result": {
               "status": "undefined"
             },
-            "line": 15,
+            "line": 13,
             "name": "I should be Landed on the Home Page",
             "match": {},
             "keyword": "Then "
@@ -103,437 +103,6 @@
           },
           {
             "name": "@Sanity"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "Open the Application",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 6,
-            "name": "I have opend the Application in Browser",
-            "match": {},
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-04-13T17:18:29.606Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1314164000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "BaseClass.SetUo()"
-            }
-          }
-        ],
-        "line": 18,
-        "name": "Validate the Successful Login",
-        "description": "",
-        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;validate-the-successful-login",
-        "after": [
-          {
-            "result": {
-              "duration": 64413900,
-              "status": "passed"
-            },
-            "match": {
-              "location": "BaseClass.TearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 19,
-            "name": "I Click on the Login Link",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 20,
-            "name": "I Enter the UserName \"abc@xyz.com\"",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 21,
-            "name": "I Enter the Password \"pqr@1234\"",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 22,
-            "name": "I Click on the Login Button",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 23,
-            "name": "I should be Landed on the Home Page",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@F_Login"
-          },
-          {
-            "name": "@Regression"
-          },
-          {
-            "name": "@U_1234"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "Open the Application",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 6,
-            "name": "I have opend the Application in Browser",
-            "match": {},
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-04-13T17:18:30.996Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1315131300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "BaseClass.SetUo()"
-            }
-          }
-        ],
-        "line": 34,
-        "name": "Validate the Successful Login",
-        "description": "",
-        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;validate-the-successful-login;;2",
-        "after": [
-          {
-            "result": {
-              "duration": 61865000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "BaseClass.TearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 26,
-            "name": "I Click on the Login Link",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 27,
-            "name": "I Enter the UserName \"abc@xyz.com\"",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 28,
-            "name": "I Enter the Password \"pqr@1234\"",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 29,
-            "name": "I Click on the Login Button",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 30,
-            "name": "I should be Landed on the Home Page",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@F_Login"
-          },
-          {
-            "name": "@Regression"
-          },
-          {
-            "name": "@Rapid"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "Open the Application",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 6,
-            "name": "I have opend the Application in Browser",
-            "match": {},
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-04-13T17:18:32.387Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1334645000,
-              "status": "passed"
-            },
-            "match": {
-              "location": "BaseClass.SetUo()"
-            }
-          }
-        ],
-        "line": 35,
-        "name": "Validate the Successful Login",
-        "description": "",
-        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;validate-the-successful-login;;3",
-        "after": [
-          {
-            "result": {
-              "duration": 65961700,
-              "status": "passed"
-            },
-            "match": {
-              "location": "BaseClass.TearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 26,
-            "name": "I Click on the Login Link",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 27,
-            "name": "I Enter the UserName \"sham@abc.com\"",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 28,
-            "name": "I Enter the Password \"pqr@1234\"",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 29,
-            "name": "I Click on the Login Button",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 30,
-            "name": "I should be Landed on the Home Page",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@F_Login"
-          },
-          {
-            "name": "@Regression"
-          },
-          {
-            "name": "@Rapid"
-          }
-        ]
-      },
-      {
-        "line": 5,
-        "name": "Open the Application",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 6,
-            "name": "I have opend the Application in Browser",
-            "match": {},
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "start_timestamp": "2022-04-13T17:18:33.798Z",
-        "before": [
-          {
-            "result": {
-              "duration": 1355442300,
-              "status": "passed"
-            },
-            "match": {
-              "location": "BaseClass.SetUo()"
-            }
-          }
-        ],
-        "line": 37,
-        "name": "Validate the Negative Login using test data",
-        "description": "",
-        "id": "this-feature-would-be-used-to-design-the-login-page-of-the-application;validate-the-negative-login-using-test-data",
-        "after": [
-          {
-            "result": {
-              "duration": 63920100,
-              "status": "passed"
-            },
-            "match": {
-              "location": "BaseClass.TearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 38,
-            "name": "I Click on the Login Link",
-            "match": {},
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 39,
-            "name": "I Enter the UserName \"abc@xyz.com\"",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 40,
-            "name": "I Enter the Password \"pqr@1234\"",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 41,
-            "name": "I Click on the Login Button",
-            "match": {},
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "duration": 374600,
-              "status": "skipped"
-            },
-            "line": 42,
-            "name": "I should get the error Message as \" The email or password you have entered is invalid.\"",
-            "match": {
-              "arguments": [
-                {
-                  "val": "\" The email or password you have entered is invalid.\"",
-                  "offset": 34
-                }
-              ],
-              "location": "LoginSteps.i_should_get_the_error_message_as(String)"
-            },
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@F_Login"
           }
         ]
       }
@@ -548,7 +117,7 @@
         "name": "@F_Login",
         "type": "Tag",
         "location": {
-          "line": 2,
+          "line": 1,
           "column": 1
         }
       }
